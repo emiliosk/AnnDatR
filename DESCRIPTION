@@ -1,12 +1,33 @@
 Package: AnnDatR
-Title: What the Package Does (One Line, Title Case)
+Title: AnnDatR: A native R6 Data Container for transcriptomics data analysis and visualization
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
+    person("Emilio", "Skarwan", , "emilio.skarwan@scilifelab.se", role = c("aut", "cre"))
+Description: AnnDatR provides an efficient, R-native implementation of AnnData data structure, widely used in the Python Scanpy ecosystem. Built on the R6 object system, it allows researchers to store, manage, process and visualize transcriptomics datasets. It includes essential functionality for data preprocessing, quality control, dimensionality reduction (PCA, UMAP), gene specificity analysis (HPA classification, Tau score), and visualization.
 License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
 URL: https://github.com/emiliosk/AnnDatR
 BugReports: https://github.com/emiliosk/AnnDatR/issues
+Imports: 
+    biomaRt,
+    dplyr,
+    factoextra,
+    ggalluvial,
+    ggdendro,
+    ggplot2,
+    ggrepel,
+    matrixStats,
+    MetBrewer,
+    NOISeq,
+    patchwork,
+    pcaMethods,
+    plotly,
+    R6,
+    readr,
+    rlang,
+    stringr,
+    tibble,
+    tidyr,
+    uwot
